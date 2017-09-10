@@ -1,0 +1,44 @@
+{
+    "_id": "c106a698-1222-4c65-a245-0953c0d8d9b3",
+    "name": "Tuition Management System",
+    "version": "0.1.0",
+    "isEnabled": true,
+    "models": [
+        {
+            "id": "fbfd7830-688f-45cd-bd9e-e9ab2ff79d0b",
+            "name": "student",
+            "description": "Student",
+            "attributes": [
+                {
+                    "id": "5e8550f0-6af4-4dce-aa6a-2eeea86d2eb5",
+                    "name": "name",
+                    "label": "Name",
+                    "placeholder": "Enter organization name",
+                    "type": "string",
+                    "isDisplayed": true,
+                    "isRequired": true,
+                    "isUnique": true
+                }, {
+                    "id": "683a93ac-9385-47ec-9988-c19872014457",
+                    "name": "dateOfBirth",
+                    "label": "Date of Birth",
+                    "placeholder": "Date of birth of the student",
+                    "type": "datetime",
+                    "isRequired": true,
+                    "isDisplayed": true                    
+                }, {
+                    "id": "1be0a0a3-713a-4596-a1cb-2ea7171f2d28",
+                    "name": "school",
+                    "label": "School",
+                    "placeholder": "Student's current school",
+                    "type": "string",
+                    "isDisplayed": true                                        
+                }
+            ]
+        }, {
+            "id": "652355e5-a053-4bfc-8141-7d658aee7858",
+            "name": "parent",
+            "description": "parent"
+        }
+    ]
+}
