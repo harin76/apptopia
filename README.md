@@ -1,6 +1,6 @@
 # apptopia
 
-> Model based application generation
+> Model based application generation using vuejs, vuex, vue-router and iView
 
 ## Build Setup
 
